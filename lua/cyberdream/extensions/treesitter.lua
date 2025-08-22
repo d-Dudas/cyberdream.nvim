@@ -59,7 +59,7 @@ function M.get(opts, t)
         ["@operator"] = { fg = t.operatorGray },
         ["@parameter"] = { link = "Identifier" },
         ["@preproc"] = { link = "PreProc" },
-        ["@property"] = { link = "Identifier" },
+        ["@property"] = { fg = t.memberOrange },
         ["@punctuation.bracket"] = { link = "Delimiter" },
         ["@punctuation.delimiter"] = { link = "Delimiter" },
         ["@punctuation.special"] = { link = "Delimiter" },
