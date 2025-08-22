@@ -31,7 +31,7 @@ function M.get(opts, t)
         ["@keyword"] = { link = "Keyword" },
         ["@keyword.coroutine"] = { link = "@keyword" },
         ["@keyword.function"] = { link = "Keyword" },
-        ["@keyword.operator"] = { link = "@operator" },
+        ["@keyword.operator"] = { fg = t.operatorGray },
         ["@keyword.return"] = { link = "@keyword" },
         ["@keyword.type"] = { fg = t.orange, italic = true },
         ["@label"] = { link = "Label" },
