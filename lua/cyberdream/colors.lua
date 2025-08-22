@@ -35,6 +35,9 @@ M.default = {
     pink = "#ff5ea0",
     orange = "#ffbd5e",
     purple = "#bd5eff",
+    memberOrange = "#ff8b35",
+    variableRed = "#ff476b",
+    parameterPink = "#ff78e7",
 }
 
 M.light = {

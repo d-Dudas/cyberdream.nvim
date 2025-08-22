@@ -97,7 +97,8 @@ function M.get(opts, t)
         ["@type.builtin"] = { fg = util.blend(t.purple, t.pink, 0.65) },
         ["@type.definition"] = { link = "Typedef" },
         ["@type.qualifier"] = { link = "@keyword" },
-        ["@variable"] = { fg = t.fg },
+        ["@variable"] = { fg = t.variableRed },
+        ["@variable.parameter"] = { fg = t.parameterPink },
         ["@variable.builtin"] = { link = "Special" },
     }
 
