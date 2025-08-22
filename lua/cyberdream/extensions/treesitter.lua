@@ -52,7 +52,7 @@ function M.get(opts, t)
         ["@markup.strong"] = { fg = t.pink, bold = true },
         ["@method"] = { link = "Function" },
         ["@method.call"] = { link = "@method" },
-        ["@module"] = { fg = t.magenta },
+        ["@module"] = { fg = t.namespaceBlue },
         ["@namespace"] = { fg = t.namespaceBlue },
         ["@none"] = { default = true },
         ["@number"] = { link = "Number" },
