@@ -30,7 +30,7 @@ function M.get(opts, t)
         ["@include"] = { link = "Include" },
         ["@keyword"] = { fg = t.keywordYellow },
         ["@keyword.coroutine"] = { link = "@keyword" },
-        ["@keyword.function"] = { link = "Keyword" },
+        ["@keyword.function"] = { fg = t.keywordYellow },
         ["@keyword.operator"] = { fg = t.operatorGray },
         ["@keyword.return"] = { link = "@keyword" },
         ["@keyword.type"] = { fg = t.orange, italic = true },
