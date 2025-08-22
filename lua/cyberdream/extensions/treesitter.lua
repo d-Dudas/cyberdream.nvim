@@ -99,7 +99,8 @@ function M.get(opts, t)
         ["@type.qualifier"] = { link = "@keyword" },
         ["@variable"] = { fg = t.variableRed },
         ["@variable.parameter"] = { fg = t.parameterPink },
-        ["@variable.builtin"] = { link = "Special" },
+        ["@variable.builtin"] = { fg =  t.variableRed },
+        ["@variable.parameter.builtin"] = { fg = t.parameterPink },
     }
 
     return highlights
