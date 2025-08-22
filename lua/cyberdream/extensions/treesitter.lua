@@ -53,7 +53,7 @@ function M.get(opts, t)
         ["@method"] = { link = "Function" },
         ["@method.call"] = { link = "@method" },
         ["@module"] = { fg = t.magenta },
-        ["@namespace"] = { link = "Include" },
+        ["@namespace"] = { fg = t.namespaceBlue },
         ["@none"] = { default = true },
         ["@number"] = { link = "Number" },
         ["@operator"] = { link = "Operator" },

@@ -38,6 +38,7 @@ M.default = {
     memberOrange = "#ff8b35",
     variableRed = "#ff476b",
     parameterPink = "#ff78e7",
+    namespaceBlue = "#28a9ff",
 }
 
 M.light = {
