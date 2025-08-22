@@ -39,7 +39,7 @@ M.default = {
     variableRed = "#ff476b",
     parameterPink = "#ff78e7",
     namespaceBlue = "#28a9ff",
-    operatorGrey = "#7a7a7d",
+    operatorGray = "#7a7a7d",
 }
 
 M.light = {
