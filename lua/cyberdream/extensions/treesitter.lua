@@ -56,7 +56,7 @@ function M.get(opts, t)
         ["@namespace"] = { fg = t.namespaceBlue },
         ["@none"] = { default = true },
         ["@number"] = { link = "Number" },
-        ["@operator"] = { link = "Operator" },
+        ["@operator"] = { fg = t.operatorGray },
         ["@parameter"] = { link = "Identifier" },
         ["@preproc"] = { link = "PreProc" },
         ["@property"] = { link = "Identifier" },
