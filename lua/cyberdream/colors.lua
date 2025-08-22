@@ -40,6 +40,7 @@ M.default = {
     parameterPink = "#ff78e7",
     namespaceBlue = "#28a9ff",
     operatorGray = "#7a7a7d",
+    keywordYellow = "#ffd038",
 }
 
 M.light = {

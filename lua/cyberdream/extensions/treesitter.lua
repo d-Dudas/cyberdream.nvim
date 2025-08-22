@@ -28,7 +28,7 @@ function M.get(opts, t)
         ["@function.call"] = { link = "@function" },
         ["@function.macro"] = { link = "Macro" },
         ["@include"] = { link = "Include" },
-        ["@keyword"] = { link = "Keyword" },
+        ["@keyword"] = { fg = t.keywordYellow },
         ["@keyword.coroutine"] = { link = "@keyword" },
         ["@keyword.function"] = { link = "Keyword" },
         ["@keyword.operator"] = { fg = t.operatorGray },
